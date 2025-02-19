@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Updated Theme with ActionBar and Button Style -->
+    <style name="Theme.Calculator" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/CustomButton</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
 
-    <style name="Theme.Calculator" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Custom ActionBar Style -->
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/grey</item>
+        <item name="android:titleTextStyle">@style/CustomActionBarTitle</item>
+    </style>
+
+    <!-- Custom ActionBar Title Text -->
+    <style name="CustomActionBarTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="CustomButton" parent="@android:style/Widget.Button">
+        <item name="android:backgroundTint">@color/grey</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>
+
+
+

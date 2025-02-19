@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="babyBlack">#1F1D1D</color>
+    <color name="light_grey">#EFEFEF</color>
+    <color name="grey">#90a4ae</color>
+    <color name="button_color">#FF5733</color> <!-- Change this to any color you want -->
+
 </resources>
